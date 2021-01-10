@@ -138,7 +138,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/admin" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../simple-modal-relation" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -177,7 +177,7 @@
       <workItem from="1609927279332" duration="6290000" />
       <workItem from="1609989910856" duration="26229000" />
       <workItem from="1610161815220" duration="26686000" />
-      <workItem from="1610248085234" duration="1208000" />
+      <workItem from="1610248085234" duration="1823000" />
     </task>
     <servers />
   </component>
@@ -189,10 +189,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="441" y="223" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.728@0.0.1366.728" timestamp="1609928533367" />
-    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1609817951753">
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1610252179546">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1609817951753" />
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1610252179546" />
     <state x="625" y="284" key="NewPhpFileDialog" timestamp="1610184815157">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
