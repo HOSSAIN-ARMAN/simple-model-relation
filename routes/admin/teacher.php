@@ -1,6 +1,6 @@
 <?php
 use Illuminate\Support\Facades\Route;
-Route::group(['prefix' => 'teacher'], function () {
+Route::group(['prefix' => 'teacher', 'middleware'=>['auth:web']], function () {
     Route::get('/index', [\App\Http\Controllers\TeacherCotroller::class, 'index'])->name('teacher.index');
     Route::post('/store', [\App\Http\Controllers\TeacherCotroller::class, 'store'])->name('teacher.store');
     Route::get('/show', [\App\Http\Controllers\TeacherCotroller::class, 'show'])->name('teacher.show');

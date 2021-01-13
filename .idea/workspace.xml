@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="69233141-814c-49dd-8c9d-b2eb4ef23e22" name="Default Changelist" comment="" />
+    <list default="true" id="69233141-814c-49dd-8c9d-b2eb4ef23e22" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/dashboard.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/dashboard.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/department/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/department/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/department/form.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/department/form.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/department/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/department/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/department/mange.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/department/mange.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/student/form.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/student/form.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/teacher/form.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/teacher/form.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/teacher/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/teacher/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/admin/department.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/admin/department.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/admin/teacher.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/admin/teacher.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,10 +27,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -131,6 +147,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1maof50DMXaY54gaMYL8owLy4x6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -145,13 +162,14 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\skylark\student-app\public\admin" />
-      <recent name="D:\skylark\student-app\public\assets" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\skylark\student-app\resources\views\admin" />
       <recent name="D:\skylark\student-app\resources\views" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\skylark\student-app\public\admin\form-design" />
+      <recent name="D:\skylark\student-app\public\admin" />
+      <recent name="D:\skylark\student-app\public\assets" />
     </key>
   </component>
   <component name="RunManager">
@@ -177,7 +195,11 @@
       <workItem from="1609927279332" duration="6290000" />
       <workItem from="1609989910856" duration="26229000" />
       <workItem from="1610161815220" duration="26686000" />
-      <workItem from="1610248085234" duration="1823000" />
+      <workItem from="1610248085234" duration="25588000" />
+      <workItem from="1610334798377" duration="7641000" />
+      <workItem from="1610421231953" duration="2922000" />
+      <workItem from="1610508707197" duration="1001000" />
+      <workItem from="1610512617688" duration="112000" />
     </task>
     <servers />
   </component>
@@ -185,18 +207,26 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1610260513076">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1610260513076" />
     <state x="441" y="223" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1609928533367">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="441" y="223" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.728@0.0.1366.728" timestamp="1609928533367" />
-    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1610252179546">
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1610512730900">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1610252179546" />
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1610512730900" />
     <state x="625" y="284" key="NewPhpFileDialog" timestamp="1610184815157">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="625" y="284" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1610184815157" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1610424600511">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1610424600511" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1610179391168">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

@@ -84,8 +84,7 @@
 
 <div class="container">
         <div class="container">
-            <hr>
-            <div class="card-body text-success">
+            <div class="wrap" id="wrap-div">
                 <form action="{{ route('teacher.store') }}" method="POST">
 
                     @include('admin.teacher.form')
@@ -98,11 +97,19 @@
                     </div>
                 </form>
             </div>
-
         </div>
 </div>
+
+
+
 @endsection
 
 @push('js')
+
+{{--    <script>--}}
+{{--        $(function() {--}}
+{{--            $('.selectpicker').selectpicker();--}}
+{{--        });--}}
+{{--    </script>--}}
 
 @endpush

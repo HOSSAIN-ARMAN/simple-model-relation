@@ -1,7 +1,7 @@
 <?php
 use Illuminate\Support\Facades\Route;
 
-Route::group(['prefix' => 'department'], function () {
+Route::group(['prefix' => 'department',  'middleware'=>['auth:web']], function () {
     Route::get('/index', [\App\Http\Controllers\DepartmentController::class, 'index'])->name('department.index');
     Route::post('/store', [\App\Http\Controllers\DepartmentController::class, 'store'])->name('department.store');
     Route::get('/show', [\App\Http\Controllers\DepartmentController::class, 'show'])->name('department.show');

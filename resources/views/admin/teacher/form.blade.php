@@ -1,10 +1,16 @@
+@push('css')
+<style>
+
+</style>
+
+@endpush
 
 <div class="row">
     <div class="col-25">
         <label for="department">Department</label>
     </div>
     <div class="col-75">
-        <select id="department_id" name="department_id">
+        <select id="department_id" name="department_id" class="selectpicker"  data-live-search="true">
 
             @foreach($departments as $department)
                 <option value="{{ isset($department->id) ? $department->id : '' }}">{{ isset($department->name) ? $department->name : ''}}</option>
@@ -42,4 +48,34 @@
     </div>
 </div>
 
+
 @csrf
+
+
+
+@push('js')
+
+    <script>
+        $(document).ready(function() {
+            var id = $("#id").val();
+            if (id){
+                // $('#label-department').hide();
+                // $("#label-code").hide();
+                // $("#header-text").html('Update Department')
+            }
+
+            $('input').on('focusin', function() {
+                $(this).parent().find('label').addClass('active');
+            });
+
+            $('input').on('focusout', function() {
+                if (!this.value) {
+                    $(this).parent().find('label').removeClass('active');
+                }
+            });
+        });
+
+
+    </script>
+
+@endpush
